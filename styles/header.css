@@ -1,0 +1,50 @@
+.header {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-direction: row;
+  height: 85px;
+  justify-content: space-between;
+  z-index: 200;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  width: fit-content;
+}
+
+.logo {
+  display: flex;
+  top: 0;
+  left: 10px;
+  cursor: pointer;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 400px;
+}
+
+.right-section a {
+  font-size: 14px;
+  font-family: open sans, sans-serif;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.right-section a:hover {
+  color: rgb(94, 125, 163);
+  cursor: pointer;
+  border-bottom: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: rgb(94, 125, 163);
+  text-decoration: none;
+}

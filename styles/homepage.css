@@ -1,0 +1,39 @@
+.first-section-container {
+  background-color: blanchedalmond;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  padding: 0 10px 0 10px;
+  width: 100%;
+}
+
+.page-title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.page-title {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  width: 750px;
+}
+
+hr.solid {
+  border-color: black;
+  position: absolute;
+  width: 100%;
+}
+
+.second-section-container {
+  height: 200px;
+  background-color: rgb(159, 194, 238);
+  position: relative;
+  width: 100%;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
