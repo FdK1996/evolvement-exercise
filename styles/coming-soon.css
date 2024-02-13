@@ -1,0 +1,26 @@
+.first-section-container {
+  background-color: #84a98c;
+  margin: auto;
+  padding: 20px 0px 40px 0px;
+  min-width: 400px;
+  max-width: 800px;
+}
+
+img {
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.first-sentence {
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.second-sentence {
+  min-width: 100px;
+  max-width: 320px;
+  margin: auto;
+  font-size: 20px;
+}
